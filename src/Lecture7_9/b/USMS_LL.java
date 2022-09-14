@@ -3,17 +3,12 @@ package Lecture7_9.b;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
+
 // Linked List implementation
 public class USMS_LL {
     static LinkedList<UncStudent> sLL = new LinkedList<>();
 
     public static void main(String[] args) {
-        double x=5.3;
-        int y;
-        y = (int) x;
-        System.out.println(x+ " "+ y);
-
-
         while (menu()!=0);
     }
 
