@@ -2,7 +2,7 @@ package Lecture7_9;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] a = {3,4,5,6,10,20,25};
+        int[] a = {3,4,5,6,10,20,30};
         int x = 255;  // The number to search for
         binarySearch(a, x);
     }
