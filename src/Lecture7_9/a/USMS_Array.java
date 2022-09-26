@@ -1,5 +1,8 @@
 package Lecture7_9.a;
 import java.util.Scanner;
+/**
+ * Implements an Array based implementation of USMS: UNC Students Management System.
+ */
 public class USMS_Array{
     static int maxStudents = 10;
     static UncStudent[] sList = new UncStudent[maxStudents];
